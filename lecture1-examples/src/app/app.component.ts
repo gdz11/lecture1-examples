@@ -18,6 +18,6 @@ export class AppComponent {
     
     setTimeout(() => {
       this.message = "Bye";//in callback we change the greeting message with "bye" message. This message is displayed when the timer fires after 5 seconds
-    }, 5000);//period is speicifed in miliseconds
+    }, 5000);//period is specifed in miliseconds
   }
 }
