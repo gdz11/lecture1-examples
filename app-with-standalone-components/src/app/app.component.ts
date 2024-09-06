@@ -2,11 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'lecture1-examples';
+  title = 'app-with-standalone-components';
+
   message: string;// variable holds message(string) that we will display in our html template (what user actually sees when opening our app)
 
   constructor(){
