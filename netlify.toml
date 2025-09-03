@@ -1,7 +1,7 @@
 [build]
   base = "hello-app/"
-  publish = "dist/browser"
-  command = "ng build configuration=production"
+  publish = "dist/hello-app/browser"
+  command = "ng build hello-app configuration=production"
 
 [[redirects]]
   from = "/*"
